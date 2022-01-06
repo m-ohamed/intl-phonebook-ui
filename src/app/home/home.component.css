@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  margin: auto;
+}
+  
+td,th {
+  text-align: center !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  align-content: center !important;
+  width: 25%;
+}
+  
+::ng-deep .mat-sort-header-container {
+  display: flex;
+  justify-content: center;
+}
+  
+.mat-paginator {
+  display: flex;
+  justify-content: center;
+}
+
+.srch-btn {
+  width: 25%;
+}
